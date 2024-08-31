@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Expense Claim",
+  "Type": "App",
+  "Id": "8g7pvtJgwEScXwP2FjXlyg",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/8g7pvtJgwEScXwP2FjXlyg",
+  "Created": "2024-08-21T10:37:59.2872081Z",
+  "Updated": "2024-08-21T10:37:59.2872081Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

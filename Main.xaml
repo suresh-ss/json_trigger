@@ -1,0 +1,338 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="712.8,5897.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="625.6,3552.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:TriggerScope DisplayName="Trigger Scope" sap:VirtualizedContainerService.HintSize="563.2,3464" sap2010:WorkflowViewState.IdRef="TriggerScope_2" SchedulingMode="Sequential">
+      <ui:TriggerScope.Action>
+        <ActivityAction x:TypeArguments="ui:FileChangeTriggerArgs">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:FileChangeTriggerArgs" Name="args" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="512,3005.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="val" />
+              <Variable x:TypeArguments="x:String" Name="valpath" />
+              <Variable x:TypeArguments="x:String" Name="read" />
+              <Variable x:TypeArguments="njl:JObject" Name="objectjson" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="449.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[val]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[System.IO.Path.GetFileName(args.FileChangeInfo.FullPath)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="449.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[valpath]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[args.FileChangeInfo.FullPath]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:ReadTextFile File="{x:Null}" Content="[read]" DisplayName="Read Text File" FileName="[valpath]" sap:VirtualizedContainerService.HintSize="449.6,112.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+            <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="449.6,122.4" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[objectjson]" JsonString="[read]" />
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Expense" sap:VirtualizedContainerService.HintSize="449.6,2454.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V2" WindowResize="Maximize">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,2140" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Bill no" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;bill no&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="fa04143f-2ee6-4a08-83c7-06b104619d7f" CvElementArea="209, 150, 281, 43" CvType="InputBox" DesignTimeRectangle="211, 152, 279, 39" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='billNoTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='billNoTextBox' role='editable text' /&gt;" Guid="cdc9e200-1fe4-4896-9f8a-2d1b9b6970aa" InformativeScreenshot="da95b1fdb69a8827294fd7c649a56069.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="fa04143f-2ee6-4a08-83c7-06b104619d7f" CvTextArea="216, 122, 45, 15" CvTextArgument="Bill No" CvType="Text" DesignTimeRectangle="218, 120, 44, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Bill No' role='text' /&gt;&lt;ctrl name='Bill No' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Bill No' role='text' /&gt;&lt;ctrl name='Bill No' role='text' automationid='' check:text='Bill No' /&gt;" Guid="caada8c7-e65b-4ad5-96fc-23f7e5d34b53" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Merchant" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;merchant&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="22bec792-1ad1-4e26-8199-3c4eb78bd757" CvElementArea="921, 150, 257, 41" CvType="InputBox" DesignTimeRectangle="850, 152, 265, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='merchantTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='merchantTextBox' role='editable text' /&gt;" Guid="c0c5e5ea-5314-4c10-a5b7-4fa2b9873bcd" InformativeScreenshot="300bd81714a0e677142cb0c2a649b28a.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="22bec792-1ad1-4e26-8199-3c4eb78bd757" CvTextArea="926, 122, 32, 15" CvTextArgument="Date" CvType="Text" DesignTimeRectangle="843, 113, 278, 33" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Merchant' role='text' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;ctrl name='Merchant' role='text' automationid='' check:text='Merchant' /&gt;" Guid="4d67a4d5-bceb-46c2-9681-b0f31903e635" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Date" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;date&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1477, 152, 273, 38" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='dateTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='dateTextBox' role='editable text' /&gt;" Guid="79d256d3-e8e0-41e3-b7ac-b7e9372724fc" InformativeScreenshot="7e1c820717e7fcc33845992f6f08b629.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1475, 113, 277, 33" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Date' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Date' role='text' automationid='' check:text='Date' /&gt;" Guid="c758f456-c59f-4fe4-aaa9-dc850b38168a" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Category" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;category&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="9c353bdd-7100-4849-8e39-44c82f8980c9" CvElementArea="178, 259, 273, 40" CvType="InputBox" DesignTimeRectangle="221, 268, 242, 29" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='PART_EditableTextBox' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;ctrl automationid='PART_EditableTextBox' role='editable text' /&gt;" Guid="b75e07f5-c481-46d6-8b42-70955dffabc1" InformativeScreenshot="0bb571b9806708b86b22bd6d88ba1098.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="218, 228, 60, 20" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Category' role='text' /&gt;&lt;ctrl name='Category' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Category' role='text' /&gt;&lt;ctrl name='Category' role='text' automationid='' check:text='Category' /&gt;" Guid="a70d496d-ebfa-4983-b014-ea21ff239f49" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Expense" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;expense&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="9c353bdd-7100-4849-8e39-44c82f8980c9" CvElementArea="814, 259, 265, 41" CvType="InputBox" DesignTimeRectangle="852, 261, 261, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='currencyTypeTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='currencyTypeTextBox' role='editable text' /&gt;" Guid="4d54b3a4-a35f-47df-8755-adcebde7a0a6" InformativeScreenshot="580dd5834932bd92d139546546b096f0.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="9c353bdd-7100-4849-8e39-44c82f8980c9" CvTextArea="871, 231, 95, 18" CvTextArgument="Currency Type" CvType="Text" DesignTimeRectangle="843, 222, 278, 33" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Expense Currency Type' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Expense Currency Type' role='text' automationid='' check:text='Expense Currency Type' /&gt;" Guid="74cd5f61-4927-42a7-9bc5-4c8f7cf84d57" SearchSteps="Selector, FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Total'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Text="[objectjson(&quot;total&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1482, 261, 264, 37" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='totalTextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='totalTextBox' role='editable text' /&gt;" Guid="e62070be-f790-44d4-b6d7-79346c6b9b73" InformativeScreenshot="ae4a3c5e0b5856db728ab13fe997523d.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1475, 222, 277, 33" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Total' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Total' role='text' automationid='' check:text='Total' /&gt;" Guid="deb64fa6-2258-4eb2-8fdd-c0d94b2de6ce" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="220fd863-fc37-4b5d-85cd-0ea0e9c09b9d" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="417, 351, 1116, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Save' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Save' role='push button' automationid='' check:text='Save' /&gt;" Guid="2550b709-28ef-4103-9450-9784da1a3e89" InformativeScreenshot="19b4903e1f5cc2751b19dc68d0fa7ea9.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="951, 361, 49, 30" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Save' role='push button' /&gt;&lt;ctrl name='Save' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Save' role='push button' /&gt;&lt;ctrl name='Save' role='text' automationid='' check:text='Save' /&gt;" Guid="39e9b7f8-04de-44e4-8174-ae8e2f038ef9" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="353.6,105.6" sap2010:WorkflowViewState.IdRef="DeleteFileX_2" Path="[valpath]" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Users\EZADMIN\Documents\Exponse_form\expense.exe" IconBase64="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" InformativeScreenshot="895caea59bd824bcf70fe9c3563a709d.png" Selector="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='52.172.32.88 - Remote Desktop Connection' /&gt;&lt;wnd app='expense.exe' cls='HwndWrapper*' title='Expense Claim' /&gt;" Title="Expense Claim" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:TriggerScope.Action>
+      <ui:TriggerScope.Triggers>
+        <scg:List x:TypeArguments="Activity" Capacity="4">
+          <ui:FileChangeTriggerV3 IncludeSubdirectories="{x:Null}" ChangeType="Created" DisplayName="File Change Trigger" Enabled="True" FileNameFilter="*.json" sap:VirtualizedContainerService.HintSize="528,228" sap2010:WorkflowViewState.IdRef="FileChangeTriggerV3_2" NotifyFilters="FileName" Path="C:\Users\EZOFIS\Documents\uipath\jso-main-backup\form" SchedulingMode="Sequential" TriggerId="5d1e3636-7031-43bf-92fc-3c8dd4bfb2f1" />
+        </scg:List>
+      </ui:TriggerScope.Triggers>
+    </ui:TriggerScope>
+  </Sequence>
+</Activity>

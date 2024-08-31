@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Expense Claim",
+  "Type": "Screen",
+  "Id": "cvl00dbcdEao2gfI5NsMBw",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/CLLBhrxJMEWolHEm1VEc3w",
+  "Created": "2024-08-21T10:37:59.386737Z",
+  "Updated": "2024-08-21T10:38:57.3293929Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

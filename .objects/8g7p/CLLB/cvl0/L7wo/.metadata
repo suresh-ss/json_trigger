@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Bill No",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "L7woZeVg2EaSGRCksm0vPw",
+  "Reference": "PtynNRzrH0y5E5pObX0gwA/L7woZeVg2EaSGRCksm0vPw",
+  "ParentRef": "PtynNRzrH0y5E5pObX0gwA/cvl00dbcdEao2gfI5NsMBw",
+  "Created": "2024-08-21T10:40:10.0418811Z",
+  "Updated": "2024-08-23T12:33:36.6725692Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
